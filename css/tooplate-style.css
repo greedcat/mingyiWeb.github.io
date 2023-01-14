@@ -183,6 +183,12 @@ footer {
 }
 
 /* Image Gallery */
+
+.img_round {
+  border-radius: 50%;
+}
+
+
 .tm-gallery {
   max-width: 860px;
   margin: 0 auto;
