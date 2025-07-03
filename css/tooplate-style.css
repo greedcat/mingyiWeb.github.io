@@ -30,11 +30,9 @@ footer a:visited {
 
 .tm-top-container {
   display: flex;
-  flex-direction: row;
-  align-items: center; /* vertically center items */
-  justify-content: flex-start; /* align items to the left */
-  gap: 40px; /* space between nav, tagline, and header */
-  padding: 20px 0;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .tm-navbar-menu {
@@ -127,19 +125,24 @@ footer a:visited {
   line-height: 1.8;
 }
 
+.resume-links {
+  display: flex;
+  gap: 20px; /* Adjust the space as needed */
+  align-items: center;
+}
+
 .tm-textbox-2 {
   padding: 60px 40px 60px;
 }
 
 .tm-section-0 {
-  margin-top: 70px;
-  max-width: 575px;
+  margin-top: 0px;
+  max-width: 750px;
 }
 
 .tm-section-1 {
-  margin-top: 0;
-  width: 420px !important;
-  max-width: none !important;
+  padding-right: 150px;
+  max-width: 750px;
 }
 
 .tm-link:link,
@@ -370,8 +373,8 @@ figure.effect-goliath:hover p {
 /* Contact */
 .tm-section-3 {
   width: 100%;
-  max-width: 400px;
-  margin-left: 40px;
+  max-width: 600px;
+  margin-left: 900px;
   margin-right: auto;
   margin-top: -50px;
 }
