@@ -30,9 +30,11 @@ footer a:visited {
 
 .tm-top-container {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center; /* vertically center items */
+  justify-content: flex-start; /* align items to the left */
+  gap: 40px; /* space between nav, tagline, and header */
+  padding: 20px 0;
 }
 
 .tm-navbar-menu {
